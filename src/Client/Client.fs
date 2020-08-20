@@ -93,7 +93,7 @@ let view (model : Model) (dispatch : Msg -> unit) =
     div
         []
         [
-            ofType<CustomComponents.JoinGameComponent,_,_> { data = 53 } []
+            ofType<JoinGameComponent,_,_> { data = 55 } []
             Heading.h3 [] [str "Spielernamen eingeben!"]
             Columns.columns []
                 [
